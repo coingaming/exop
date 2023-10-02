@@ -14,7 +14,6 @@ defmodule Exop.Mixfile do
       elixir: ">= 1.6.0",
       name: "Exop",
       description: @description,
-      organization: "coingaming",
       package: package(),
       deps: deps(),
       source_url: "https://github.com/coingaming/exop",
@@ -32,13 +31,14 @@ defmodule Exop.Mixfile do
 
   defp deps do
     [
-      {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
+      # {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
       {:dialyxir, "~> 1.0", only: :dev, runtime: false}
     ]
   end
 
   defp package do
     [
+      organization: "coingaming",
       files: ["lib", "mix.exs", "README.md", "LICENSE"],
       maintainers: ["Reio Piller"],
       licenses: ["MIT"],
