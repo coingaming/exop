@@ -17,7 +17,7 @@ defmodule Exop.Mixfile do
       organization: "coingaming",
       package: package(),
       deps: deps(),
-      source_url: "https://github.com/madeinussr/exop",
+      source_url: "https://github.com/coingaming/exop",
       docs: [extras: ["README.md"]],
       build_embedded: Mix.env() == :prod,
       start_permanent: Mix.env() == :prod
@@ -40,9 +40,9 @@ defmodule Exop.Mixfile do
   defp package do
     [
       files: ["lib", "mix.exs", "README.md", "LICENSE"],
-      maintainers: ["Andrey Chernykh"],
+      maintainers: ["Reio Piller"],
       licenses: ["MIT"],
-      links: %{"Github" => "https://github.com/madeinussr/exop"}
+      links: %{"Github" => "https://github.com/coingaming/exop"}
     ]
   end
 end
