@@ -14,6 +14,7 @@ defmodule Exop.Mixfile do
       elixir: ">= 1.6.0",
       name: "Exop",
       description: @description,
+      organization: "coingaming",
       package: package(),
       deps: deps(),
       source_url: "https://github.com/madeinussr/exop",
